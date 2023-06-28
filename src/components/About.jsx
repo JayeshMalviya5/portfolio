@@ -83,7 +83,14 @@ const About = () => {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <button className="border-2 mt-5 rounded-md text-[#2978b5] border-[#2978b5] hover:bg-[#2978b5] hover:text-white transition-colors py-1 px-3">
+          <button
+            className="border-2 mt-5 rounded-md text-[#2978b5] border-[#2978b5] hover:bg-[#2978b5] hover:text-white transition-colors py-1 px-3"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/11tdo8ng5-T9aDLJDvHDU_rvVeZT-srpv/view"
+              )
+            }
+          >
             Resume
           </button>
         </div>
