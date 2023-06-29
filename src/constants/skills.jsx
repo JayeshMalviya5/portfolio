@@ -1,9 +1,5 @@
-import { GrReactjs} from "react-icons/gr";
-import {
-  BsBook,
-  BsFiletypeHtml,
-  BsStackOverflow,
-} from "react-icons/bs";
+import { GrReactjs } from "react-icons/gr";
+import { BsBook, BsFiletypeHtml, BsStackOverflow } from "react-icons/bs";
 import {
   BiLogoCss3,
   BiLogoHeroku,
@@ -14,11 +10,10 @@ import {
   BiSolidUserVoice,
 } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
+import { TbBinaryTree } from "react-icons/tb";
 import { SiExpress, SiNetlify } from "react-icons/si";
-import {
-  AiFillGithub,
-  AiOutlineFieldString,
-} from "react-icons/ai";
+import { CgListTree } from "react-icons/cg";
+import { AiFillGithub, AiOutlineFieldString } from "react-icons/ai";
 import { TfiLoop } from "react-icons/tfi";
 import { MdDataArray } from "react-icons/md";
 import { RiTeamFill } from "react-icons/ri";
@@ -44,6 +39,8 @@ export const dsa = [
   { icons: <AiOutlineFieldString size={70} color="#2978b5" />, name: "String" },
   { icons: <TfiLoop size={70} color="#2978b5" />, name: "Recursion" },
   { icons: <BsStackOverflow size={70} color="#2978b5" />, name: "Stack" },
+  { icons: <CgListTree size={70} color="#2978b5" />, name: "LinkedList" },
+  { icons: <TbBinaryTree size={70} color="#2978b5" />, name: "Trees" },
 ];
 
 export const softSkills = [
@@ -51,4 +48,5 @@ export const softSkills = [
   { icons: <RiTeamFill size={70} color="#2978b5" />, name: "Teamwork" },
   { icons: <BsBook size={70} color="#2978b5" />, name: "Learner" },
   { icons: <FaUserEdit size={70} color="#2978b5" />, name: "Adaptive" },
+  
 ];

@@ -2,7 +2,7 @@
 
 const ProjectCard = ({ name, description, live, tech, image, source,isMain }) => {
   return (
-    <div className={`flex flex-col justify-center hover:scale-105 hover:shadow-2xl border-[#2978b5] duration-500 transition-all items-center gap-3 p-7 border-2 ${isMain ? "w-4/5" : "w-2/5"} rounded-lg`}>
+    <div className={`flex flex-col hover:cursor-pointer justify-center hover:scale-105 hover:shadow-2xl border-[#2978b5] duration-500 transition-all items-center gap-3 p-7 border-2 ${isMain ? "w-4/5" : "w-2/5"} rounded-lg`}>
       {image}
       <h1 className="text-3xl font-semibold text-[#2978b5]">{name}</h1>
       <hr className="w-full border-black"/>

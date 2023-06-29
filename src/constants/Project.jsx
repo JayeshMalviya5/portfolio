@@ -16,7 +16,7 @@ export const project = [
       />
     ),
     description:
-      "loremvb rttrcac evtcrbt btr aewcv bytawecewf rbrtb ntn rvaafwefgtr bdgnty rfvsdcawef grgwawdqgbrg ntyn ntndb sfvbrt bresv ",
+      "Build codedeck which is an online coding platform where user can code in various languages and save their code for future use",
     tech: ["ReactJS", "Tailwind CSS", "code-editor", "HTML", "Js"],
     live: "https://jayeshmalviya5.github.io/Code-deck/",
     source: "https://github.com/JayeshMalviya5/Code-deck.git",
@@ -65,7 +65,7 @@ export const project = [
     ),
     description:
       "Build Weather forcasting application which gives todays weather as well as predictions for next 7 days weather forecast",
-    tech: ["HTML", "CSS", "JavaScript", "OpenWeatherMapApi", "Api's"],
+    tech: ["HTML", "CSS", "JavaScript", "Api's"],
     live: "https://weather-api-map-k.netlify.app/",
     source: "https://github.com/JayeshMalviya5/Weather_using_api.git",
     isMain: false,
